@@ -1,0 +1,65 @@
+2022-09-02 14:05:05,373 [1] INFO  Log1 - v2rayN start up | v2rayN - V5.29 - 2022/07/04 | F:\fix\v2rayN-Core\v2rayN-Core\v2rayN.exe
+2022-09-02 14:05:05,790 [1] DEBUG Log2 - Could not find file 'F:\fix\v2rayN-Core\v2rayN-Core\guiNConfig.json'.
+2022-09-02 14:05:05,803 [1] DEBUG Log2 - System.IO.FileNotFoundException: Could not find file 'F:\fix\v2rayN-Core\v2rayN-Core\guiNConfig.json'.
+File name: 'F:\fix\v2rayN-Core\v2rayN-Core\guiNConfig.json'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at v2rayN.Utils.LoadResource(String res)
+2022-09-02 14:06:06,532 [4] INFO  Log1 - UpdateTaskRun
+2022-09-02 14:10:24,559 [1] INFO  Log1 - v2rayN start up | v2rayN - V5.29 - 2022/07/04 | F:\fix\v2rayN-Core\v2rayN-Core\v2rayN.exe
+2022-09-02 14:11:25,677 [4] INFO  Log1 - UpdateTaskRun
+2022-09-02 14:11:26,414 [5] DEBUG Log2 - A task was canceled.
+2022-09-02 14:11:26,437 [5] DEBUG Log2 - System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at v2rayN.Base.HttpClientHelper.<GetAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at v2rayN.Handler.DownloadHandle.<DownloadStringAsync>d__10.MoveNext()
+2022-09-02 14:12:04,013 [9] DEBUG Log2 - A task was canceled.
+2022-09-02 14:12:04,014 [9] DEBUG Log2 - System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at v2rayN.Base.HttpClientHelper.<GetAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at v2rayN.Handler.DownloadHandle.<DownloadStringAsync>d__10.MoveNext()
+2022-09-02 14:12:06,437 [12] DEBUG Log2 - A task was canceled.
+2022-09-02 14:12:06,437 [12] DEBUG Log2 - System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at v2rayN.Base.HttpClientHelper.<GetAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at v2rayN.Handler.DownloadHandle.<DownloadStringAsync>d__10.MoveNext()
+2022-09-02 14:12:34,022 [6] DEBUG Log2 - A task was canceled.
+2022-09-02 14:12:34,023 [6] DEBUG Log2 - System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at v2rayN.Base.HttpClientHelper.<GetAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at v2rayN.Handler.DownloadHandle.<DownloadStringAsync>d__10.MoveNext()
+2022-09-02 14:27:47,649 [16] DEBUG Log2 - A task was canceled.
+2022-09-02 14:27:47,650 [16] DEBUG Log2 - System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at v2rayN.Base.HttpClientHelper.<GetAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at v2rayN.Handler.DownloadHandle.<DownloadStringAsync>d__10.MoveNext()
+2022-09-02 14:36:04,570 [1] INFO  Log1 - MyAppExit Begin
+2022-09-02 14:36:04,740 [1] INFO  Log1 - MyAppExit End

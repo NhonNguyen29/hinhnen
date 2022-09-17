@@ -1,0 +1,4 @@
+2022-09-07 00:12:42,263 [1] INFO  Log1 - v2rayN start up | v2rayN - V5.29 - 2022/07/04 | F:\fix\v2rayN-Core\v2rayN-Core\v2rayN.exe
+2022-09-07 00:13:43,172 [4] INFO  Log1 - UpdateTaskRun
+2022-09-07 02:07:29,308 [1] INFO  Log1 - MyAppExit Begin
+2022-09-07 02:07:29,683 [1] INFO  Log1 - MyAppExit End

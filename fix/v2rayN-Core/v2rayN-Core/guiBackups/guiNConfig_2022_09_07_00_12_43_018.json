@@ -1,0 +1,525 @@
+{
+  "logEnabled": false,
+  "loglevel": "warning",
+  "indexId": "4943890032215988155",
+  "muxEnabled": false,
+  "sysProxyType": 1,
+  "enableStatistics": false,
+  "keepOlderDedupl": false,
+  "statisticsFreshRate": 1,
+  "remoteDNS": null,
+  "defAllowInsecure": false,
+  "domainStrategy": "IPIfNonMatch",
+  "domainMatcher": "linear",
+  "routingIndex": 2,
+  "enableRoutingAdvanced": true,
+  "ignoreGeoUpdateCore": false,
+  "systemProxyExceptions": null,
+  "systemProxyAdvancedProtocol": null,
+  "autoUpdateInterval": 0,
+  "autoUpdateSubInterval": 0,
+  "enableSecurityProtocolTls13": false,
+  "trayMenuServersLimit": 30,
+  "inbound": [
+    {
+      "localPort": 10808,
+      "protocol": "socks",
+      "udpEnabled": true,
+      "sniffingEnabled": true,
+      "allowLANConn": false,
+      "user": null,
+      "pass": null
+    }
+  ],
+  "vmess": [
+    {
+      "indexId": "4943890032215988155",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 10,
+      "address": "sg.fuzzypn.me",
+      "port": 80,
+      "id": "08127643-b86c-4f91-b932-669e752391a2",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "🇸🇬 SG 🔄",
+      "headerType": "none",
+      "requestHost": "Dl.kgvn.garenanow.com",
+      "path": "/fuzzypn",
+      "streamSecurity": "",
+      "allowInsecure": "false",
+      "testResult": "",
+      "subid": "4932923862857581033",
+      "flow": "",
+      "sni": "",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null
+    },
+    {
+      "indexId": "5614106106194865160",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 10,
+      "address": "sg.fuzzypn.me",
+      "port": 443,
+      "id": "08127643-b86c-4f91-b932-669e752391a2",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "🇸🇬 SG 🔄🔒",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "fuzzypn",
+      "streamSecurity": "",
+      "allowInsecure": "false",
+      "testResult": "Timeout",
+      "subid": "4932923862857581033",
+      "flow": "",
+      "sni": "Dl.kgvn.garenanow.com",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null
+    },
+    {
+      "indexId": "5748436151739159419",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 10,
+      "address": "hk.fuzzypn.me",
+      "port": 80,
+      "id": "08127643-b86c-4f91-b932-669e752391a2",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "🇭🇰 HK 🔄",
+      "headerType": "none",
+      "requestHost": "Dl.kgvn.garenanow.com",
+      "path": "/fuzzypn",
+      "streamSecurity": "",
+      "allowInsecure": "False",
+      "testResult": "",
+      "subid": "4932923862857581033",
+      "flow": "",
+      "sni": "",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null
+    },
+    {
+      "indexId": "5026082136093382771",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 10,
+      "address": "hk.fuzzypn.me",
+      "port": 443,
+      "id": "08127643-b86c-4f91-b932-669e752391a2",
+      "alterId": 0,
+      "security": "auto",
+      "network": "grpc",
+      "remarks": "🇭🇰 HK 🔄🔒",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "tls",
+      "allowInsecure": "False",
+      "testResult": "",
+      "subid": "4932923862857581033",
+      "flow": "",
+      "sni": "Dl.kgvn.garenanow.com",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null
+    },
+    {
+      "indexId": "4849656816718299606",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 10,
+      "address": "ind.fuzzypn.me",
+      "port": 80,
+      "id": "08127643-b86c-4f91-b932-669e752391a2",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "🇮🇳India",
+      "headerType": "none",
+      "requestHost": "Dl.kgvn.garenanow.com",
+      "path": "/fuzzypn",
+      "streamSecurity": "",
+      "allowInsecure": "False",
+      "testResult": "",
+      "subid": "4932923862857581033",
+      "flow": "",
+      "sni": "",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null
+    },
+    {
+      "indexId": "5432920209800753139",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 10,
+      "address": "ind.fuzzypn.me",
+      "port": 443,
+      "id": "08127643-b86c-4f91-b932-669e752391a2",
+      "alterId": 0,
+      "security": "auto",
+      "network": "grpc",
+      "remarks": "🇮🇳India 🔒",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "fuzzypn",
+      "streamSecurity": "tls",
+      "allowInsecure": "False",
+      "testResult": "",
+      "subid": "4932923862857581033",
+      "flow": "",
+      "sni": "Dl.kgvn.garenanow.com",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null
+    },
+    {
+      "indexId": "5624490089800020077",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 10,
+      "address": "us.fuzzypn.me",
+      "port": 80,
+      "id": "08127643-b86c-4f91-b932-669e752391a2",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "🇺🇸United States",
+      "headerType": "none",
+      "requestHost": "Dl.kgvn.garenanow.com",
+      "path": "/fuzzypn",
+      "streamSecurity": "",
+      "allowInsecure": "False",
+      "testResult": "",
+      "subid": "4932923862857581033",
+      "flow": "",
+      "sni": "",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null
+    },
+    {
+      "indexId": "5226510458650235605",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 10,
+      "address": "us.fuzzypn.me",
+      "port": 443,
+      "id": "08127643-b86c-4f91-b932-669e752391a2",
+      "alterId": 0,
+      "security": "auto",
+      "network": "grpc",
+      "remarks": "🇺🇸United States 🔒",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "fuzzypn",
+      "streamSecurity": "tls",
+      "allowInsecure": "False",
+      "testResult": "",
+      "subid": "4932923862857581033",
+      "flow": "",
+      "sni": "Dl.kgvn.garenanow.com",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null
+    },
+    {
+      "indexId": "5009603295128478634",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 10,
+      "address": "hns.fuzzypn.me",
+      "port": 80,
+      "id": "08127643-b86c-4f91-b932-669e752391a2",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "🇻🇳 Ha Noi S",
+      "headerType": "none",
+      "requestHost": "Dl.kgvn.garenanow.com",
+      "path": "/fuzzypn",
+      "streamSecurity": "",
+      "allowInsecure": "False",
+      "testResult": "",
+      "subid": "4932923862857581033",
+      "flow": "",
+      "sni": "",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null
+    },
+    {
+      "indexId": "5005443015267443952",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 10,
+      "address": "hcms.fuzzypn.me",
+      "port": 80,
+      "id": "08127643-b86c-4f91-b932-669e752391a2",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "🇻🇳 HCM S",
+      "headerType": "none",
+      "requestHost": "Dl.kgvn.garenanow.com",
+      "path": "/fuzzypn",
+      "streamSecurity": "",
+      "allowInsecure": "False",
+      "testResult": "",
+      "subid": "4932923862857581033",
+      "flow": "",
+      "sni": "",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null
+    }
+  ],
+  "kcpItem": {
+    "mtu": 1350,
+    "tti": 50,
+    "uplinkCapacity": 12,
+    "downlinkCapacity": 100,
+    "congestion": false,
+    "readBufferSize": 2,
+    "writeBufferSize": 2
+  },
+  "subItem": [
+    {
+      "id": "4932923862857581033",
+      "remarks": "Anhem24hFuzzy",
+      "url": "https://api.fuzzypn.me/api/v1/client/subscribe?token=982f7fb3b956191cda96cb693711b934",
+      "enabled": true,
+      "userAgent": "",
+      "groupId": ""
+    }
+  ],
+  "uiItem": {
+    "enableAutoAdjustMainLvColWidth": true,
+    "mainLocation": "-32000, -32000",
+    "mainSize": "160, 28",
+    "mainLvColWidth": {
+      "def": 27,
+      "configType": 49,
+      "remarks": 98,
+      "address": 93,
+      "port": 31,
+      "security": 50,
+      "network": 57,
+      "streamSecurity": 32,
+      "subRemarks": 103,
+      "testResult": 402
+    }
+  },
+  "routings": [
+    {
+      "remarks": "绕过大陆(Whitelist)",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "domain:example-example.com",
+            "domain:example-example2.com"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "block",
+          "ip": null,
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "geosite:cn"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": [
+            "geoip:private",
+            "geoip:cn"
+          ],
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": false,
+      "customIcon": null
+    },
+    {
+      "remarks": "黑名单(Blacklist)",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": null,
+          "protocol": [
+            "bittorrent"
+          ],
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "block",
+          "ip": null,
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": [
+            "geoip:telegram"
+          ],
+          "domain": [
+            "geosite:gfw",
+            "geosite:greatfire",
+            "geosite:tld-!cn"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": false,
+      "customIcon": null
+    },
+    {
+      "remarks": "全局(Global)",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": false,
+      "customIcon": null
+    },
+    {
+      "remarks": "locked",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": [
+            "geosite:google"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "domain:example-example.com",
+            "domain:example-example2.com"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "block",
+          "ip": null,
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": true,
+      "customIcon": null
+    }
+  ],
+  "constItem": {
+    "speedTestUrl": "http://cachefly.cachefly.net/10mb.test",
+    "speedPingTestUrl": "https://www.google.com/generate_204",
+    "defIEProxyExceptions": "localhost;127.*;10.*;172.16.*;172.17.*;172.18.*;172.19.*;172.20.*;172.21.*;172.22.*;172.23.*;172.24.*;172.25.*;172.26.*;172.27.*;172.28.*;172.29.*;172.30.*;172.31.*;192.168.*"
+  },
+  "globalHotkeys": null,
+  "groupItem": [],
+  "coreTypeItem": null
+}
